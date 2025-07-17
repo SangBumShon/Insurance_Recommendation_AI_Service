@@ -1,7 +1,0 @@
-services:
-  model-server:
-    image: idealhyun2/model-server:latest
-    container_name: model-server
-    restart: always
-    ports:
-      - "8000:8000"
